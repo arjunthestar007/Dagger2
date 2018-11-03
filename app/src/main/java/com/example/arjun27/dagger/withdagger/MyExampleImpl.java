@@ -13,6 +13,6 @@ public class MyExampleImpl implements MyExample {
 
     @Override
     public long getDate() {
-        return 0;
+        return date;
     }
 }
