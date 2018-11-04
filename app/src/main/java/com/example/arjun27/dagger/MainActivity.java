@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
         ((MyAppilication) getApplication())
                 .getMyComponent()
                 .inject(MainActivity.this);
-        dateTextView.setText((new Date(new Date().getTime())).toString());
+        dateTextView.setText((new Date(mMyExample.getDate())).toString());
     }
 }
