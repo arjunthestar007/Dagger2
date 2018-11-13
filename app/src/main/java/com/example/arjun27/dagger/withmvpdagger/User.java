@@ -1,6 +1,7 @@
 package com.example.arjun27.dagger.withmvpdagger;
 
 public class User {
+
     public User(String firstName, String lastname) {
         this.firstName = firstName;
         this.lastname = lastname;
